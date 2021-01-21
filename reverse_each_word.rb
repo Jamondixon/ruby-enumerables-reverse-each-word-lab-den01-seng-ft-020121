@@ -3,4 +3,3 @@ def reverse_each_word(string)
   new_reverse_array = string_to_array.collect{|element| element.reverse}
 new_reverse_array.join("")
 end
-
